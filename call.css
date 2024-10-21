@@ -1,0 +1,87 @@
+.cal{
+  background-color:#C6AF91;
+  width:300px;
+  font-family: 'VT323';
+  
+}
+.header{
+  background-color:black;
+  height=100%;
+  padding:1em 1em 1em 1em;
+  border:0.5em outset #555;
+}
+h1{
+  margin:0.25em 0 0.5em 0;
+  color:white;
+}
+.header hr{
+  border:0;
+  border-bottom:0.25em solid #444;
+  margin-left:-2em;
+  margin-right:-2em;
+  margin-bottom:0
+}
+
+input [type="text"]{
+  background-color:#928C7C;
+  color:#222;
+  font-size:300%;
+  min-width:95%;
+  max-width:95%;
+  border:0.1em inset #CBCBCB;
+  padding-lefr:0.1em;
+  text-align:right;
+}
+.body hr{
+  border-bottom:0.25em solid #9F5343;
+  
+}
+.row{
+  margin-top:0.5em;
+  width:100%;
+  diaplay:flex;
+  flex-direction:row;
+  justify-content: space-betweeb;
+  align-items: center;
+}
+
+input [type="button"]{
+  background-color:#444;
+  
+  border:0.2el outset #444;
+  padding-left:0.1em;
+  text-align:right;
+  color:white;
+  from-size:200%;
+  width:3.6em;
+  height: 2em;
+  padding=0;
+  margin=0;
+}
+button:active {
+  background-color: rgb(28, 197, 28);
+}
+
+
+input [type=button].egale{
+  border:0.2em outset #666;
+  background-color:#666;
+}
+input [type=button].clear{
+  border:0.2em outset #FE7526;
+  background-color:#FE7526;
+}
+input [type=button]:active{
+  
+  border:0 !important;
+  
+}
+input [type=button[:active {
+  background-color: rgb(28, 197, 28);
+input [type=button]:focus{
+  
+  border:0;
+  outline: 0;
+  
+}
+  
